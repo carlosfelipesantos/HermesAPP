@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ccfel\\OneDrive\\Meu Computador (Galaxy Book 4)\\Documents\\GitHub\\HermesAPP\\HermesAPI\\HermesAPI\\HermesAPI.csproj": {}
+    "C:\\Users\\ccfel\\Documents\\GitHub\\HermesAPP\\HermesAPI\\HermesAPI\\HermesAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ccfel\\OneDrive\\Meu Computador (Galaxy Book 4)\\Documents\\GitHub\\HermesAPP\\HermesAPI\\HermesAPI\\HermesAPI.csproj": {
+    "C:\\Users\\ccfel\\Documents\\GitHub\\HermesAPP\\HermesAPI\\HermesAPI\\HermesAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ccfel\\OneDrive\\Meu Computador (Galaxy Book 4)\\Documents\\GitHub\\HermesAPP\\HermesAPI\\HermesAPI\\HermesAPI.csproj",
+        "projectUniqueName": "C:\\Users\\ccfel\\Documents\\GitHub\\HermesAPP\\HermesAPI\\HermesAPI\\HermesAPI.csproj",
         "projectName": "HermesAPI",
-        "projectPath": "C:\\Users\\ccfel\\OneDrive\\Meu Computador (Galaxy Book 4)\\Documents\\GitHub\\HermesAPP\\HermesAPI\\HermesAPI\\HermesAPI.csproj",
+        "projectPath": "C:\\Users\\ccfel\\Documents\\GitHub\\HermesAPP\\HermesAPI\\HermesAPI\\HermesAPI.csproj",
         "packagesPath": "C:\\Users\\ccfel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ccfel\\OneDrive\\Meu Computador (Galaxy Book 4)\\Documents\\GitHub\\HermesAPP\\HermesAPI\\HermesAPI\\obj\\",
+        "outputPath": "C:\\Users\\ccfel\\Documents\\GitHub\\HermesAPP\\HermesAPI\\HermesAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

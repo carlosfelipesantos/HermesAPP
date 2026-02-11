@@ -14,6 +14,8 @@ namespace HermesAPI.Data
         }
 
         public DbSet<Usuario> Usuarios { get; set; } //lista de usuarios
+        public DbSet<Cliente> Clientes { get; set; }
+        public DbSet<Transportador> Transportadores { get; set; }
 
     }
 }
