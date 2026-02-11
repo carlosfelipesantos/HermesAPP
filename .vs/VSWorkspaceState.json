@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\HermesAPI",
+    "\\HermesAPI\\HermesAPI",
+    "\\HermesAPI\\HermesAPI\\Migrations"
   ],
+  "SelectedNode": "\\HermesAPI\\HermesAPI\\Migrations\\20260210171040_InitialCreate.cs",
   "PreviewInSolutionExplorer": false
 }
