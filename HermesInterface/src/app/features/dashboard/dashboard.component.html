@@ -1,0 +1,34 @@
+<div class="grid">
+  <div class="card" *ngFor="let k of kpis">
+    <div class="label">{{ k.label }}</div>
+    <div class="value">{{ k.value }}</div>
+  </div>
+</div>
+
+<div class="panel">
+  <div class="panel-header">
+    <h2>Últimos fretes</h2>
+    <button class="btn">Ver todos</button>
+  </div>
+
+  <div class="table">
+    <div class="row head">
+      <div>ID</div><div>Status</div><div>Origem</div><div>Destino</div><div>Valor</div>
+    </div>
+
+    <div class="row" *ngFor="let f of latest">
+      <div>{{ f.id }}</div>
+      <div>
+        <span class="badge"
+          [class.ok]="f.status==='Finalizado'"
+          [class.warn]="f.status==='Em andamento'"
+          [class.bad]="f.status==='Cancelado'">
+          {{ f.status }}
+        </span>
+      </div>
+      <div>{{ f.origem }}</div>
+      <div>{{ f.destino }}</div>
+      <div>{{ f.valor }}</div>
+    </div>
+  </div>
+</div>

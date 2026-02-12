@@ -1,0 +1,134 @@
+/* ============================= */
+/* LAYOUT BASE */
+/* ============================= */
+
+.app {
+  display: flex;
+  min-height: 100vh;
+  background: #0f1f17;
+  color: #ffffff;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  padding: 22px;
+}
+
+/* ============================= */
+/* SIDEBAR */
+/* ============================= */
+
+.sidebar {
+  width: 260px;
+  background: #13261c;
+  border-right: 1px solid rgba(255, 255, 255, 0.06);
+  padding: 18px;
+  height: 100vh;
+}
+
+.brand {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  background: #1e3a2d;
+  display: grid;
+  place-items: center;
+  font-weight: 800;
+  color: #22c55e;
+}
+
+.section {
+  margin: 18px 0 8px;
+  font-size: 12px;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+.nav a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.nav a:hover {
+  background: rgba(34, 197, 94, 0.12);
+}
+
+.nav a.active {
+  background: rgba(34, 197, 94, 0.2);
+  border: 1px solid rgba(34, 197, 94, 0.4);
+}
+
+.nav .dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 99px;
+  background: #22c55e;
+}
+
+/* ============================= */
+/* TOPBAR */
+/* ============================= */
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 22px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  background: #0f1f17;
+}
+
+.title h1 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.title p {
+  margin: 4px 0 0;
+  opacity: 0.7;
+  font-size: 13px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.search {
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: #13261c;
+  color: #ffffff;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 14px;
+  background: #1e3a2d;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  color: #22c55e;
+}
