@@ -4,6 +4,7 @@ using HermesAPI.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HermesAPI.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260212132629_AddFretesFk")]
+    partial class AddFretesFk
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -169,13 +172,13 @@ namespace HermesAPI.Migrations
             modelBuilder.Entity("HermesAPI.Entities.Frete", b =>
                 {
                     b.HasOne("HermesAPI.Entities.Cliente", "Cliente")
-                        .WithMany("Fretes")
+                        .WithMany()
                         .HasForeignKey("ClienteId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("HermesAPI.Entities.Transportador", "Transportador")
-                        .WithMany("Fretes")
+                        .WithMany()
                         .HasForeignKey("TransportadorId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
@@ -183,16 +186,6 @@ namespace HermesAPI.Migrations
                     b.Navigation("Cliente");
 
                     b.Navigation("Transportador");
-                });
-
-            modelBuilder.Entity("HermesAPI.Entities.Cliente", b =>
-                {
-                    b.Navigation("Fretes");
-                });
-
-            modelBuilder.Entity("HermesAPI.Entities.Transportador", b =>
-                {
-                    b.Navigation("Fretes");
                 });
 #pragma warning restore 612, 618
         }
