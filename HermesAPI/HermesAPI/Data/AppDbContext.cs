@@ -1,21 +1,32 @@
-﻿
-
-using HermesAPI.Entities;
+﻿using HermesAPI.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace HermesAPI.Data
 {
-    public class AppDbContext: DbContext
+    public class AppDbContext : DbContext
     {
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
-        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) // injecao de banco
-        {
-
-        }
-
-        public DbSet<Usuario> Usuarios { get; set; } //lista de usuarios
+        public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Cliente> Clientes { get; set; }
         public DbSet<Transportador> Transportadores { get; set; }
+        public DbSet<Frete> Fretes { get; set; }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<Frete>()
+                .HasOne(f => f.Cliente)
+                .WithMany(c => c.Fretes)
+                .HasForeignKey(f => f.ClienteId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<Frete>()
+                .HasOne(f => f.Transportador)
+                .WithMany(t => t.Fretes)
+                .HasForeignKey(f => f.TransportadorId)
+                .OnDelete(DeleteBehavior.Restrict);
+        }
     }
 }
