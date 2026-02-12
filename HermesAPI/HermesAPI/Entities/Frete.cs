@@ -9,13 +9,15 @@
         public double Valor { get; set; }
         public string Status { get; set; }
         public DateTime DataSolicitacao { get; set; }
-        public DateTime DataConclusao { get; set; }
+        public DateTime? DataConclusao { get; set; }
 
         public int  ClienteId { get; set; }
         public Cliente Cliente { get; set; }
 
-        public int TransportadorId { get; set; }
+        public int? TransportadorId { get; set; }
         public Transportador Transportador { get; set; }
+
+        public Avaliacao Avaliacao { get; set; }
 
     }
 }

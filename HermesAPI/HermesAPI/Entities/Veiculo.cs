@@ -12,5 +12,9 @@ namespace HermesAPI.Entities
         public string Capacidade { get; set; }
         public bool Disponivel { get; set; }
         public DateTime DataCadastro { get; set; }
+
+        public int TransportadorId { get; set; }
+        public Transportador Transportador { get; set; }
     }
+
 }

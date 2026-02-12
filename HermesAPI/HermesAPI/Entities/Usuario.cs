@@ -18,5 +18,7 @@ namespace HermesAPI.Entities
         public Boolean Ativo { get; set; }
         public string Estado { get; set; }
         public string Cidade { get; set; }
+
+        public ICollection<Notificacao> Notificacoes { get; set; }
     }
 }
