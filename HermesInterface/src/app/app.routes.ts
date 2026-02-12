@@ -1,22 +1,24 @@
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
-import { MobileLayoutComponent } from './layouts/mobile-layout/mobile-layout.component';
-import { FreightListComponent } from './features/freight/freight-list/freight-list.component';
+import { Routes } from '@angular/router';
+import { ShellComponent } from './core/shell/shell.component';
 
 export const routes: Routes = [
   {
     path: '',
-    component: MobileLayoutComponent,
+    component: ShellComponent,
     children: [
-      { path: '', redirectTo: '/freights', pathMatch: 'full' },
-      { path: 'freights', component: FreightListComponent },
-      // Adicionar outras rotas aqui
-    ]
-  }
-];
+      { path: '', pathMatch: 'full', redirectTo: 'dashboard' },
 
-@NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
-})
-export class AppRoutingModule {}
+      {
+        path: 'dashboard',
+        loadComponent: () =>
+          import('./features/dashboard/dashboard.component').then(m => m.DashboardComponent),
+      },
+      {
+        path: 'freights',
+        loadComponent: () =>
+          import('./features/freights-list/freights-list.component').then(m => m.FreightsListComponent),
+      },
+    ],
+  },
+  { path: '**', redirectTo: 'dashboard' },
+];
