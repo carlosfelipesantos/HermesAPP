@@ -10,28 +10,22 @@
 
     <nav class="nav">
       <div class="section">Geral</div>
-      <a routerLink="/dashboard" routerLinkActive="active">
-        <span class="dot"></span> Dashboard
-      </a>
+      <a routerLink="/dashboard" routerLinkActive="active"><span class="dot"></span> Dashboard</a>
 
       <div class="section">Operação</div>
-      <a routerLink="/freights" routerLinkActive="active">
-        <span class="dot"></span> Fretes
-      </a>
-      <a routerLink="/drivers" routerLinkActive="active">
-        <span class="dot"></span> Motoristas
-      </a>
-      <a routerLink="/vehicles" routerLinkActive="active">
-        <span class="dot"></span> Veículos
-      </a>
+      <a routerLink="/freights" routerLinkActive="active"><span class="dot"></span> Fretes</a>
+      <a routerLink="/monitoring" routerLinkActive="active"><span class="dot"></span> Monitoramento</a>
 
-      <div class="section">Admin</div>
-      <a routerLink="/users" routerLinkActive="active">
-        <span class="dot"></span> Usuários
-      </a>
-      <a routerLink="/settings" routerLinkActive="active">
-        <span class="dot"></span> Configurações
-      </a>
+      <div class="section">Cadastros</div>
+      <a routerLink="/users" routerLinkActive="active"><span class="dot"></span> Usuários</a>
+      <a routerLink="/vehicles" routerLinkActive="active"><span class="dot"></span> Veículos</a>
+
+      <div class="section">Qualidade</div>
+      <a routerLink="/reviews" routerLinkActive="active"><span class="dot"></span> Avaliações</a>
+
+      <div class="section">Sistema</div>
+      <a routerLink="/notifications" routerLinkActive="active"><span class="dot"></span> Notificações</a>
+      <a routerLink="/settings" routerLinkActive="active"><span class="dot"></span> Configurações</a>
     </nav>
   </aside>
 
@@ -39,19 +33,18 @@
     <header class="topbar">
       <div class="title">
         <h1>Hermes Admin</h1>
-        <p>Somente visual agora — API depois</p>
+        <p>Backoffice — visual agora, API depois</p>
       </div>
 
       <div class="actions">
         <input class="search" placeholder="Buscar..." />
         <button class="btn primary">Novo</button>
-        <div class="avatar">TS</div>
+        <div class="avatar">H</div>
       </div>
     </header>
 
     <section class="content">
       <router-outlet></router-outlet>
     </section>
-    </main>
+  </main>
 </div>
-

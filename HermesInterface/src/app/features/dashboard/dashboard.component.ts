@@ -1,23 +1,47 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { DashboardService } from '../../data-access/services/dashboard.service';
+import { DashboardData } from '../../data-access/models/dashboard.model';
+import { RouterLink } from '@angular/router';
 
 @Component({
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterLink],
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.css'],
 })
 export class DashboardComponent {
-  kpis = [
-    { label: 'Fretes no mês', value: '128' },
-    { label: 'Em andamento', value: '14' },
-    { label: 'Finalizados', value: '102' },
-    { label: 'Cancelados', value: '12' },
-  ];
+  private service = inject(DashboardService);
 
-  latest = [
-    { id: 'FR-1029', status: 'Em andamento', origem: 'SP', destino: 'RJ', valor: 'R$ 1.250,00' },
-    { id: 'FR-1028', status: 'Finalizado', origem: 'MG', destino: 'SP', valor: 'R$ 980,00' },
-    { id: 'FR-1027', status: 'Cancelado', origem: 'PR', destino: 'SC', valor: 'R$ 430,00' },
-  ];
+  loading = true;
+  data: DashboardData | null = null;
+
+  async ngOnInit() {
+    this.data = await this.service.get();
+    this.loading = false;
+  }
+
+  toneClass(tone: 'neutral' | 'warn' | 'ok' | 'bad') {
+    return {
+      neutral: tone === 'neutral',
+      warn: tone === 'warn',
+      ok: tone === 'ok',
+      bad: tone === 'bad',
+    };
+  }
+
+  alertClass(type: 'NewFreight' | 'Operational' | 'System') {
+    return {
+      ok: type === 'NewFreight',
+      warn: type === 'Operational',
+      sys: type === 'System',
+    };
+  }
+
+  ratingStars(avg: number) {
+    // só visual simples
+    const full = Math.floor(avg);
+    const half = avg - full >= 0.5;
+    return { full, half };
+  }
 }
