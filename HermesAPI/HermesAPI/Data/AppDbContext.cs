@@ -12,6 +12,10 @@ namespace HermesAPI.Data
         public DbSet<Transportador> Transportadores { get; set; }
         public DbSet<Frete> Fretes { get; set; }
 
+        public DbSet<Avaliacao> Avaliacoes { get; set; }
+        public DbSet<Notificacao> Notificacoes { get; set; }
+        public DbSet<Veiculo> Veiculos { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
