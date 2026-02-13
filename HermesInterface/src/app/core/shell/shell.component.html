@@ -10,22 +10,73 @@
 
     <nav class="nav">
       <div class="section">Geral</div>
-      <a routerLink="/dashboard" routerLinkActive="active"><span class="dot"></span> Dashboard</a>
+      <a
+        routerLink="/dashboard"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+      >
+        <span class="dot"></span> Dashboard
+      </a>
 
       <div class="section">Operação</div>
-      <a routerLink="/freights" routerLinkActive="active"><span class="dot"></span> Fretes</a>
-      <a routerLink="/monitoring" routerLinkActive="active"><span class="dot"></span> Monitoramento</a>
+      <a
+        routerLink="/freights"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+      >
+        <span class="dot"></span> Fretes
+      </a>
+
+      <a
+        routerLink="/monitoring"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+      >
+        <span class="dot"></span> Monitoramento
+      </a>
 
       <div class="section">Cadastros</div>
-      <a routerLink="/users" routerLinkActive="active"><span class="dot"></span> Usuários</a>
-      <a routerLink="/vehicles" routerLinkActive="active"><span class="dot"></span> Veículos</a>
+      <a
+        routerLink="/users"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+      >
+        <span class="dot"></span> Usuários
+      </a>
+
+      <a
+        routerLink="/vehicles"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+      >
+        <span class="dot"></span> Veículos
+      </a>
 
       <div class="section">Qualidade</div>
-      <a routerLink="/reviews" routerLinkActive="active"><span class="dot"></span> Avaliações</a>
+      <a
+        routerLink="/reviews"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+      >
+        <span class="dot"></span> Avaliações
+      </a>
 
       <div class="section">Sistema</div>
-      <a routerLink="/notifications" routerLinkActive="active"><span class="dot"></span> Notificações</a>
-      <a routerLink="/settings" routerLinkActive="active"><span class="dot"></span> Configurações</a>
+      <a
+        routerLink="/notifications"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+      >
+        <span class="dot"></span> Notificações
+      </a>
+
+      <a
+        routerLink="/settings"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+      >
+        <span class="dot"></span> Configurações
+      </a>
     </nav>
   </aside>
 
@@ -39,7 +90,15 @@
       <div class="actions">
         <input class="search" placeholder="Buscar..." />
         <button class="btn primary">Novo</button>
-        <div class="avatar">H</div>
+        <a routerLink="/account" class="avatarLink" title="Minha conta">
+          <ui-avatar
+            [name]="session.user().name"
+            [src]="session.user().photoUrl ?? null"
+            [avatarId]="session.user().avatarId ?? null"
+            [size]="36"
+          />
+        </a>
+
       </div>
     </header>
 
