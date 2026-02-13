@@ -11,12 +11,14 @@
   <div class="grid">
     <div class="card">
       <div class="row">
-        <ui-avatar
-          [name]="user().name"
-          [src]="user().photoUrl ?? null"
-          [avatarId]="user().avatarId ?? null"
-          [size]="64"
-        />
+        <button type="button" class="avatarEdit" (click)="openEditor()">
+            <ui-avatar
+                [name]="user().name"
+                [src]="user().photoUrl ?? null"
+                [avatarId]="user().avatarId ?? null"
+                [size]="64"
+            />
+        </button>
         <div class="meta">
           <div class="name">{{ user().name }}</div>
           <div class="muted">{{ user().role }} • {{ user().email }}</div>
@@ -82,8 +84,18 @@
 
     <div class="avatars">
       <button class="avatarPick" *ngFor="let a of avatars" (click)="pickAvatar(a)">
-        <img [src]="'assets/avatars/' + a + '.svg'" alt="avatar" />
+        <img [src]="'assets/avatars/' + a + '.png'" alt="avatar" />
       </button>
     </div>
+
+    <div class="actions">
+        <button class="btn primary" (click)="saveProfile()" [disabled]="saving()">
+            <span *ngIf="!saving()">Salvar</span>
+            <span *ngIf="saving()" class="spinner"></span>
+            <span *ngIf="saving()">Salvando...</span>
+        </button>
+        <span class="saveOk" *ngIf="saved()">✅ Salvo</span>
+    </div>
+
   </div>
 </div>

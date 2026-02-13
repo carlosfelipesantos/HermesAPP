@@ -1,4 +1,4 @@
-import { Component, computed, input } from '@angular/core';
+import { Component, computed, input, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -38,8 +38,8 @@ import { CommonModule } from '@angular/common';
 })
 export class AvatarComponent {
   name = input<string>('');
-  src = input<string | null>(null);       // foto enviada
-  avatarId = input<string | null>(null);  // personagem
+  src = input<string | null>(null);       
+  avatarId = input<string | null>(null);  
   size = input<number>(36);
 
   initials = computed(() => {
@@ -51,6 +51,6 @@ export class AvatarComponent {
 
   avatarUrl = computed(() => {
     const id = this.avatarId();
-    return id ? `assets/avatars/${id}.svg` : null;
+    return id ? `/assets/avatars/${id}.png` : null;
   });
 }

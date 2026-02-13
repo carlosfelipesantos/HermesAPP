@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Router, RouterOutlet, RouterLink, RouterLinkActive } from '@angular/router';
 import { AvatarComponent } from '../../shared/ui/avatar/avatar.component';
@@ -12,5 +12,7 @@ import { SessionService } from '../../data-access/services/session.service';
   styleUrl: './shell.component.css',
 })
 export class ShellComponent {
-  constructor(public session: SessionService) {}  
+  session = inject(SessionService); 
 }
+
+

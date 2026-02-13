@@ -1,14 +1,12 @@
 import { Injectable, signal, computed } from '@angular/core';
 
-export type UserRole = 'Admin' | 'Operador' | 'Supervisor';
-
 export type UserProfile = {
   id: string;
   name: string;
   email: string;
-  role: UserRole;
-  photoUrl?: string | null;   
-  avatarId?: string | null;  
+  role: string;
+  photoUrl?: string | null;
+  avatarId?: string | null;
 };
 
 @Injectable({ providedIn: 'root' })
@@ -18,11 +16,15 @@ export class SessionService {
     name: 'Hermes Admin',
     email: 'admin@hermes.local',
     role: 'Admin',
-    photoUrl: null,
-    avatarId: 'robot-01',
+    photoUrl: 'assets/avatar.png',
+    avatarId: null,
   });
 
   user = computed(() => this._user());
+
+  updateProfile(data: Partial<Pick<UserProfile, 'name' | 'email'>>) {
+    this._user.update(u => ({ ...u, ...data }));
+  }
 
   setAvatar(avatarId: string) {
     this._user.update(u => ({ ...u, avatarId, photoUrl: null }));
@@ -32,12 +34,5 @@ export class SessionService {
     this._user.update(u => ({ ...u, photoUrl, avatarId: null }));
   }
 
-  updateProfile(data: Partial<Pick<UserProfile, 'name' | 'email'>>) {
-    this._user.update(u => ({ ...u, ...data }));
-  }
-
-  logout() {
-    // mock por enquanto
-    console.log('logout');
-  }
+  logout() {}
 }

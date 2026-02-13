@@ -1,4 +1,4 @@
-import { Component, computed, inject, signal } from '@angular/core';
+import { Component, computed, inject, signal, effect } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { SessionService } from '../../../data-access/services/session.service';
@@ -13,10 +13,11 @@ import { AvatarComponent } from '../../../shared/ui/avatar/avatar.component';
 export class AccountComponent {
   session = inject(SessionService);
 
+  saving = signal(false);
+  saved = signal(false);
   editing = signal(false);
   tab = signal<'upload' | 'avatars'>('upload');
 
-  // agora isso funciona, porque session já existe
   name = signal(this.session.user().name);
   email = signal(this.session.user().email);
 
@@ -38,6 +39,15 @@ export class AccountComponent {
     this.session.setAvatar(id);
     this.closeEditor();
   }
+
+  constructor() {
+    effect(() => {
+      const u = this.user();
+      this.name.set(u.name);
+      this.email.set(u.email);
+    });
+  }
+
 
   async onFileSelected(ev: Event) {
     const input = ev.target as HTMLInputElement;

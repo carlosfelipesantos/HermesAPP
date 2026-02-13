@@ -137,3 +137,42 @@ h2{ margin:0; }
   height:100%;
   object-fit: cover;
 }
+
+.avatarEdit{
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 999px;
+}
+
+.avatarEdit:focus-visible{
+  outline: 2px solid rgba(34, 197, 94, 0.6);
+  outline-offset: 3px;
+}
+
+.btn[disabled]{
+  opacity: .7;
+  cursor: not-allowed;
+}
+
+.spinner{
+  width: 14px;
+  height: 14px;
+  border-radius: 999px;
+  border: 2px solid rgba(255,255,255,0.35);
+  border-top-color: rgba(255,255,255,0.95);
+  display: inline-block;
+  margin-right: 8px;
+  animation: spin .8s linear infinite;
+  vertical-align: -2px;
+}
+
+@keyframes spin{
+  to { transform: rotate(360deg); }
+}
+
+.saveOk{
+  opacity: .9;
+  font-weight: 700;
+}
