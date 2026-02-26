@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\ccfel\\OneDrive\\Meu Computador (Galaxy Book 4)\\Documents\\GitHub\\HermesAPP\\HermesAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C54A70EF-6B4E-96B7-5F90-013C550D7E11}|HermesAPI\\HermesAPI.csproj|c:\\users\\ccfel\\onedrive\\meu computador (galaxy book 4)\\documents\\github\\hermesapp\\hermesapi\\hermesapi\\dtos\\veiculo\\criarveiculodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C54A70EF-6B4E-96B7-5F90-013C550D7E11}|HermesAPI\\HermesAPI.csproj|solutionrelative:hermesapi\\dtos\\veiculo\\criarveiculodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C54A70EF-6B4E-96B7-5F90-013C550D7E11}|HermesAPI\\HermesAPI.csproj|c:\\users\\ccfel\\onedrive\\meu computador (galaxy book 4)\\documents\\github\\hermesapp\\hermesapi\\hermesapi\\dtos\\veiculo\\veiculodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C54A70EF-6B4E-96B7-5F90-013C550D7E11}|HermesAPI\\HermesAPI.csproj|solutionrelative:hermesapi\\dtos\\veiculo\\veiculodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C54A70EF-6B4E-96B7-5F90-013C550D7E11}|HermesAPI\\HermesAPI.csproj|c:\\users\\ccfel\\onedrive\\meu computador (galaxy book 4)\\documents\\github\\hermesapp\\hermesapi\\hermesapi\\dtos\\frete\\atualizarstatusfretedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C54A70EF-6B4E-96B7-5F90-013C550D7E11}|HermesAPI\\HermesAPI.csproj|solutionrelative:hermesapi\\dtos\\frete\\atualizarstatusfretedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -119,6 +127,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CriarVeiculoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ccfel\\OneDrive\\Meu Computador (Galaxy Book 4)\\Documents\\GitHub\\HermesAPP\\HermesAPI\\HermesAPI\\DTOs\\Veiculo\\CriarVeiculoDTO.cs",
+              "RelativeDocumentMoniker": "HermesAPI\\DTOs\\Veiculo\\CriarVeiculoDTO.cs",
+              "ToolTip": "C:\\Users\\ccfel\\OneDrive\\Meu Computador (Galaxy Book 4)\\Documents\\GitHub\\HermesAPP\\HermesAPI\\HermesAPI\\DTOs\\Veiculo\\CriarVeiculoDTO.cs",
+              "RelativeToolTip": "HermesAPI\\DTOs\\Veiculo\\CriarVeiculoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T18:40:37.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VeiculoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ccfel\\OneDrive\\Meu Computador (Galaxy Book 4)\\Documents\\GitHub\\HermesAPP\\HermesAPI\\HermesAPI\\DTOs\\Veiculo\\VeiculoDTO.cs",
+              "RelativeDocumentMoniker": "HermesAPI\\DTOs\\Veiculo\\VeiculoDTO.cs",
+              "ToolTip": "C:\\Users\\ccfel\\OneDrive\\Meu Computador (Galaxy Book 4)\\Documents\\GitHub\\HermesAPP\\HermesAPI\\HermesAPI\\DTOs\\Veiculo\\VeiculoDTO.cs",
+              "RelativeToolTip": "HermesAPI\\DTOs\\Veiculo\\VeiculoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T18:40:27.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AtualizarStatusFreteDTO.cs",
               "DocumentMoniker": "C:\\Users\\ccfel\\OneDrive\\Meu Computador (Galaxy Book 4)\\Documents\\GitHub\\HermesAPP\\HermesAPI\\HermesAPI\\DTOs\\Frete\\AtualizarStatusFreteDTO.cs",
               "RelativeDocumentMoniker": "HermesAPI\\DTOs\\Frete\\AtualizarStatusFreteDTO.cs",
@@ -131,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "CriarFreteDTO.cs",
               "DocumentMoniker": "C:\\Users\\ccfel\\OneDrive\\Meu Computador (Galaxy Book 4)\\Documents\\GitHub\\HermesAPP\\HermesAPI\\HermesAPI\\DTOs\\Frete\\CriarFreteDTO.cs",
               "RelativeDocumentMoniker": "HermesAPI\\DTOs\\Frete\\CriarFreteDTO.cs",
@@ -139,12 +173,11 @@
               "RelativeToolTip": "HermesAPI\\DTOs\\Frete\\CriarFreteDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T18:39:21.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-26T18:39:21.427Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "FreteDTO.cs",
               "DocumentMoniker": "C:\\Users\\ccfel\\OneDrive\\Meu Computador (Galaxy Book 4)\\Documents\\GitHub\\HermesAPP\\HermesAPI\\HermesAPI\\DTOs\\Frete\\FreteDTO.cs",
               "RelativeDocumentMoniker": "HermesAPI\\DTOs\\Frete\\FreteDTO.cs",
@@ -152,12 +185,11 @@
               "RelativeToolTip": "HermesAPI\\DTOs\\Frete\\FreteDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T18:39:11.871Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-26T18:39:11.871Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AtualizarUsuarioDTO.cs",
               "DocumentMoniker": "C:\\Users\\ccfel\\OneDrive\\Meu Computador (Galaxy Book 4)\\Documents\\GitHub\\HermesAPP\\HermesAPI\\HermesAPI\\DTOs\\Usuario\\AtualizarUsuarioDTO.cs",
               "RelativeDocumentMoniker": "HermesAPI\\DTOs\\Usuario\\AtualizarUsuarioDTO.cs",
@@ -165,12 +197,11 @@
               "RelativeToolTip": "HermesAPI\\DTOs\\Usuario\\AtualizarUsuarioDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T18:35:48.02Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-26T18:35:48.02Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "CriarUsuarioDTO.cs",
               "DocumentMoniker": "C:\\Users\\ccfel\\OneDrive\\Meu Computador (Galaxy Book 4)\\Documents\\GitHub\\HermesAPP\\HermesAPI\\HermesAPI\\DTOs\\Usuario\\CriarUsuarioDTO.cs",
               "RelativeDocumentMoniker": "HermesAPI\\DTOs\\Usuario\\CriarUsuarioDTO.cs",
@@ -182,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "UsuarioDTO.cs",
               "DocumentMoniker": "C:\\Users\\ccfel\\OneDrive\\Meu Computador (Galaxy Book 4)\\Documents\\GitHub\\HermesAPP\\HermesAPI\\HermesAPI\\DTOs\\Usuario\\UsuarioDTO.cs",
               "RelativeDocumentMoniker": "HermesAPI\\DTOs\\Usuario\\UsuarioDTO.cs",
@@ -194,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\ccfel\\OneDrive\\Meu Computador (Galaxy Book 4)\\Documents\\GitHub\\HermesAPP\\HermesAPI\\HermesAPI\\Entities\\Usuario.cs",
               "RelativeDocumentMoniker": "HermesAPI\\Entities\\Usuario.cs",
@@ -206,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\ccfel\\OneDrive\\Meu Computador (Galaxy Book 4)\\Documents\\GitHub\\HermesAPP\\HermesAPI\\HermesAPI\\Entities\\Cliente.cs",
               "RelativeDocumentMoniker": "HermesAPI\\Entities\\Cliente.cs",
@@ -218,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "20260212144057_Relacionamentos.cs",
               "DocumentMoniker": "C:\\Users\\ccfel\\OneDrive\\Meu Computador (Galaxy Book 4)\\Documents\\GitHub\\HermesAPP\\HermesAPI\\HermesAPI\\Migrations\\20260212144057_Relacionamentos.cs",
               "RelativeDocumentMoniker": "HermesAPI\\Migrations\\20260212144057_Relacionamentos.cs",
@@ -230,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Transportador.cs",
               "DocumentMoniker": "C:\\Users\\ccfel\\OneDrive\\Meu Computador (Galaxy Book 4)\\Documents\\GitHub\\HermesAPP\\HermesAPI\\HermesAPI\\Entities\\Transportador.cs",
               "RelativeDocumentMoniker": "HermesAPI\\Entities\\Transportador.cs",
@@ -242,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\ccfel\\OneDrive\\Meu Computador (Galaxy Book 4)\\Documents\\GitHub\\HermesAPP\\HermesAPI\\HermesAPI\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "HermesAPI\\Data\\AppDbContext.cs",
@@ -254,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ccfel\\OneDrive\\Meu Computador (Galaxy Book 4)\\Documents\\GitHub\\HermesAPP\\HermesAPI\\HermesAPI\\Program.cs",
               "RelativeDocumentMoniker": "HermesAPI\\Program.cs",
@@ -266,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Notificacao.cs",
               "DocumentMoniker": "C:\\Users\\ccfel\\OneDrive\\Meu Computador (Galaxy Book 4)\\Documents\\GitHub\\HermesAPP\\HermesAPI\\HermesAPI\\Entities\\Notificacao.cs",
               "RelativeDocumentMoniker": "HermesAPI\\Entities\\Notificacao.cs",
@@ -278,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Frete.cs",
               "DocumentMoniker": "C:\\Users\\ccfel\\OneDrive\\Meu Computador (Galaxy Book 4)\\Documents\\GitHub\\HermesAPP\\HermesAPI\\HermesAPI\\Entities\\Frete.cs",
               "RelativeDocumentMoniker": "HermesAPI\\Entities\\Frete.cs",
@@ -290,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Veiculo.cs",
               "DocumentMoniker": "C:\\Users\\ccfel\\OneDrive\\Meu Computador (Galaxy Book 4)\\Documents\\GitHub\\HermesAPP\\HermesAPI\\HermesAPI\\Entities\\Veiculo.cs",
               "RelativeDocumentMoniker": "HermesAPI\\Entities\\Veiculo.cs",
@@ -302,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Avaliacao.cs",
               "DocumentMoniker": "C:\\Users\\ccfel\\OneDrive\\Meu Computador (Galaxy Book 4)\\Documents\\GitHub\\HermesAPP\\HermesAPI\\HermesAPI\\Entities\\Avaliacao.cs",
               "RelativeDocumentMoniker": "HermesAPI\\Entities\\Avaliacao.cs",
@@ -314,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "20260211142930_EntidadesClienteTransportador.cs",
               "DocumentMoniker": "C:\\Users\\ccfel\\OneDrive\\Meu Computador (Galaxy Book 4)\\Documents\\GitHub\\HermesAPP\\HermesAPI\\HermesAPI\\Migrations\\20260211142930_EntidadesClienteTransportador.cs",
               "RelativeDocumentMoniker": "HermesAPI\\Migrations\\20260211142930_EntidadesClienteTransportador.cs",
@@ -326,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "20260212133027_AtualizandoFKFrete.cs",
               "DocumentMoniker": "C:\\Users\\ccfel\\OneDrive\\Meu Computador (Galaxy Book 4)\\Documents\\GitHub\\HermesAPP\\HermesAPI\\HermesAPI\\Migrations\\20260212133027_AtualizandoFKFrete.cs",
               "RelativeDocumentMoniker": "HermesAPI\\Migrations\\20260212133027_AtualizandoFKFrete.cs",
@@ -338,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "20260212132629_AddFretesFk.cs",
               "DocumentMoniker": "C:\\Users\\ccfel\\OneDrive\\Meu Computador (Galaxy Book 4)\\Documents\\GitHub\\HermesAPP\\HermesAPI\\HermesAPI\\Migrations\\20260212132629_AddFretesFk.cs",
               "RelativeDocumentMoniker": "HermesAPI\\Migrations\\20260212132629_AddFretesFk.cs",
@@ -350,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "AppDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\ccfel\\OneDrive\\Meu Computador (Galaxy Book 4)\\Documents\\GitHub\\HermesAPP\\HermesAPI\\HermesAPI\\Migrations\\AppDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "HermesAPI\\Migrations\\AppDbContextModelSnapshot.cs",
@@ -362,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "20260210171040_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\ccfel\\OneDrive\\Meu Computador (Galaxy Book 4)\\Documents\\GitHub\\HermesAPP\\HermesAPI\\HermesAPI\\Migrations\\20260210171040_InitialCreate.cs",
               "RelativeDocumentMoniker": "HermesAPI\\Migrations\\20260210171040_InitialCreate.cs",
@@ -374,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\ccfel\\OneDrive\\Meu Computador (Galaxy Book 4)\\Documents\\GitHub\\HermesAPP\\HermesAPI\\HermesAPI\\appsettings.json",
               "RelativeDocumentMoniker": "HermesAPI\\appsettings.json",
@@ -386,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "HermesAPI.csproj",
               "DocumentMoniker": "C:\\Users\\ccfel\\OneDrive\\Meu Computador (Galaxy Book 4)\\Documents\\GitHub\\HermesAPP\\HermesAPI\\HermesAPI\\HermesAPI.csproj",
               "RelativeDocumentMoniker": "HermesAPI\\HermesAPI.csproj",
