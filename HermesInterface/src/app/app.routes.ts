@@ -15,6 +15,7 @@ export const routes: Routes = [
       { path: 'vehicles', loadComponent: () => import('./features/vehicles/vehicles.component').then(m => m.VehiclesComponent) },
       { path: 'notifications', loadComponent: () => import('./features/notifications/notifications.component').then(m => m.NotificationsComponent) },
       { path: 'settings', loadComponent: () => import('./features/settings/settings.component').then(m => m.SettingsComponent) },
+      { path: 'account', loadComponent: () => import('./features/settings/account/account.component').then(m => m.AccountComponent) },
     ],
   },
   { path: '**', redirectTo: 'dashboard' },
