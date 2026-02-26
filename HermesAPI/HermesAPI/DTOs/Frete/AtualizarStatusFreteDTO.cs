@@ -2,5 +2,6 @@
 {
     public class AtualizarStatusFreteDTO
     {
+        public string Status { get; set; }
     }
 }
