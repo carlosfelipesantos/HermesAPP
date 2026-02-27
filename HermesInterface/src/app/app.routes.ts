@@ -10,6 +10,7 @@ export const routes: Routes = [
       { path: 'dashboard', loadComponent: () => import('./features/dashboard/dashboard.component').then(m => m.DashboardComponent) },
       { path: 'users', loadComponent: () => import('./features/users/users.component').then(m => m.UsersComponent) },
       { path: 'freights', loadComponent: () => import('./features/freights/freights.component').then(m => m.FreightsComponent) },
+      { path: 'create-freights', loadComponent: () => import('./features/freights/create-freights/create-freights.component').then(m => m.CreateFreightsComponent) },
       { path: 'monitoring', loadComponent: () => import('./features/monitoring/monitoring.component').then(m => m.MonitoringComponent) },
       { path: 'reviews', loadComponent: () => import('./features/reviews/reviews.component').then(m => m.ReviewsComponent) },
       { path: 'vehicles', loadComponent: () => import('./features/vehicles/vehicles.component').then(m => m.VehiclesComponent) },

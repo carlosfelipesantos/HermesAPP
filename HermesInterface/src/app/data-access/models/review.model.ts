@@ -11,7 +11,7 @@ export interface Review {
   comment: string;
 
   createdAt: string; // ISO
-  dateLabel: string; // "11/02 14:20" (só visual)
+  dateLabel: string; // "11/02 14:20" 
 }
 
 export interface TransporterRatingSummary {

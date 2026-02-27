@@ -1,0 +1,95 @@
+<div class="page">
+  <div class="container">
+
+    <div class="card">
+
+      <div class="header">
+        <h1>Solicitar Frete</h1>
+        <p>Preencha os dados completos para enviar sua solicitação.</p>
+      </div>
+
+      <form [formGroup]="form" (ngSubmit)="submit()">
+
+        <!-- ORIGEM -->
+        <section>
+          <h3>📍 Endereço de Origem</h3>
+
+          <div class="grid-2">
+            <div class="field">
+              <label>Endereço *</label>
+              <input formControlName="originAddress" placeholder="Rua, número, bairro" />
+            </div>
+
+            <div class="field">
+              <label>Cidade *</label>
+              <input formControlName="originCity" placeholder="Cidade" />
+            </div>
+          </div>
+
+          <div class="field small">
+            <label>Estado *</label>
+            <input formControlName="originUf" placeholder="UF" maxlength="2" />
+          </div>
+        </section>
+
+        <!-- DESTINO -->
+        <section>
+          <h3>🏁 Endereço de Destino</h3>
+
+          <div class="grid-2">
+            <div class="field">
+              <label>Endereço *</label>
+              <input formControlName="destAddress" placeholder="Rua, número, bairro" />
+            </div>
+
+            <div class="field">
+              <label>Cidade *</label>
+              <input formControlName="destCity" placeholder="Cidade" />
+            </div>
+          </div>
+
+          <div class="field small">
+            <label>Estado *</label>
+            <input formControlName="destUf" placeholder="UF" maxlength="2" />
+          </div>
+        </section>
+
+        <!-- CARGA -->
+        <section>
+          <h3>📦 Informações da Carga</h3>
+
+          <div class="grid-2">
+            <div class="field">
+              <label>Peso (kg) *</label>
+              <input type="number" formControlName="weightKg" />
+            </div>
+
+            <div class="field">
+              <label>Valor do Frete (R$) *</label>
+              <input type="number" formControlName="price" />
+            </div>
+          </div>
+
+          <div class="field">
+            <label>Descrição *</label>
+            <textarea formControlName="cargoDesc"
+              placeholder="Descreva tipo de carga, dimensões, cuidados especiais...">
+            </textarea>
+          </div>
+        </section>
+
+        <div class="actions">
+          <button type="button" class="btn ghost" routerLink="/freights">
+            Cancelar
+          </button>
+
+          <button type="submit" class="btn primary"
+            [disabled]="form.invalid">
+            Criar Solicitação
+          </button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+</div>

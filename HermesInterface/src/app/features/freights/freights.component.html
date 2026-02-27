@@ -16,8 +16,11 @@
         <option value="Done">Finalizado</option>
         <option value="Canceled">Cancelado</option>
       </select>
-
-      <button class="btn primary">Novo frete</button>
+<a></a>
+      <button class="btn primary" 
+        routerLink="/create-freights"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }">Novo frete</button>
     </div>
   </div>
 
