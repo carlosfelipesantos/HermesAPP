@@ -7,13 +7,14 @@ import { DrawerComponent } from '../../shared/ui/drawer/drawer.component';
 
 import { Freight, FreightStatus } from '../../data-access/models/freight.model';
 import { FreightService } from '../../data-access/services/freight.service';
+import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 
 
 type TimelineStep = { key: FreightStatus; label: string };
 
 @Component({
   standalone: true,
-  imports: [CommonModule, FormsModule, BadgeComponent, DrawerComponent],
+  imports: [CommonModule, FormsModule, BadgeComponent, DrawerComponent, RouterLink, RouterOutlet, RouterLinkActive],
   templateUrl: './freights.component.html',
   styleUrls: ['./freights.component.css'],
 })
