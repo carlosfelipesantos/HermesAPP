@@ -67,8 +67,7 @@
               "RelativeToolTip": "HermesAPI\\DTOs\\Frete\\AtualizarStatusFreteDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T19:22:57.677Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-27T19:22:57.677Z"
             },
             {
               "$type": "Document",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "HermesAPI\\Entities\\Avaliacao.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T18:59:47.199Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-26T18:59:47.199Z"
             },
             {
               "$type": "Document",
@@ -93,8 +91,7 @@
               "RelativeToolTip": "HermesAPI\\DTOs\\Avaliacao\\AvaliacaoDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T18:59:29.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-26T18:59:29.526Z"
             },
             {
               "$type": "Document",
@@ -106,8 +103,7 @@
               "RelativeToolTip": "HermesAPI\\DTOs\\Avaliacao\\CriarAvaliacaoDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T18:58:02.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-26T18:58:02.719Z"
             }
           ]
         }
