@@ -10,9 +10,9 @@ export interface User {
   role: UserRole;
   status: UserStatus;
 
-  createdAt: string; // ISO
-  rating?: number; // só para transportador
-  activeVehicles?: number; // só para transportador
+  createdAt: string; 
+  rating?: number; 
+  activeVehicles?: number; 
 }
 
 export interface UserFreightHistoryItem {
@@ -22,7 +22,7 @@ export interface UserFreightHistoryItem {
   origin: string;
   destination: string;
   valueLabel: string;
-  dateLabel: string; // "10/02 14:20"
+  dateLabel: string; 
 }
 
 export interface UserDetails {

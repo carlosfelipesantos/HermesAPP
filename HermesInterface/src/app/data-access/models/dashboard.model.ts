@@ -4,7 +4,7 @@ export interface DashboardKpis {
   doneFreights: number;
   usersCount: number;
   activeTransporters: number;
-  averageRating: number; // 0..5
+  averageRating: number; 
 }
 
 export type AlertType = 'NewFreight' | 'Operational' | 'System';
@@ -14,17 +14,17 @@ export interface DashboardAlert {
   type: AlertType;
   title: string;
   description: string;
-  timeLabel: string; // "há 2 min"
+  timeLabel: string; 
 }
 
 export interface DashboardLatestFreight {
   id: string;
-  statusLabel: string; // "Solicitado" etc
+  statusLabel: string; 
   statusTone: 'neutral' | 'warn' | 'ok' | 'bad';
   origin: string;
   destination: string;
-  valueLabel: string; // "R$ 1.250,00"
-  transporterLabel: string; // "—" ou nome
+  valueLabel: string; 
+  transporterLabel: string; 
 }
 
 export interface DashboardData {

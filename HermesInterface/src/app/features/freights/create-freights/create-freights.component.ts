@@ -90,7 +90,6 @@ export class CreateFreightsComponent {
 
         const address = [res.logradouro, res.bairro].filter(Boolean).join(' - ');
         if (kind === 'origin') {
-          // não sobrescreve se o usuário já digitou algo
           if (!this.form.controls.originAddress.value) this.form.controls.originAddress.setValue(address);
           if (!this.form.controls.originCity.value) this.form.controls.originCity.setValue(res.localidade ?? '');
           if (!this.form.controls.originUf.value) this.form.controls.originUf.setValue((res.uf ?? '').toUpperCase());

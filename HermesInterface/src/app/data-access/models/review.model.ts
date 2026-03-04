@@ -7,11 +7,11 @@ export interface Review {
 
   customerName: string;
 
-  rating: number; // 1..5
+  rating: number;
   comment: string;
 
-  createdAt: string; // ISO
-  dateLabel: string; // "11/02 14:20" 
+  createdAt: string; 
+  dateLabel: string; 
 }
 
 export interface TransporterRatingSummary {

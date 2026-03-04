@@ -2,8 +2,8 @@ export type VehicleType = 'Moto' | 'Van' | 'VUC' | 'Caminhao';
 export type VehicleAvailability = 'Available' | 'Busy' | 'Inactive';
 
 export interface Vehicle {
-  id: string;           // ex: V-3001
-  plate: string;        // ex: ABC1D23
+  id: string;         
+  plate: string;        
   type: VehicleType;
 
   capacityKg: number;
@@ -14,6 +14,6 @@ export interface Vehicle {
   transporterId: string;
   transporterName: string;
 
-  createdAt: string; // ISO
+  createdAt: string; 
   notes?: string;
 }
