@@ -15,6 +15,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies()); //registrando o AutoMapper para mapear os objetos no container de injeção de dependência
+
 
 var app = builder.Build();
 
