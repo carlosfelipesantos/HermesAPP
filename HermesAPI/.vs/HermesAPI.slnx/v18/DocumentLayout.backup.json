@@ -70,8 +70,7 @@
               "RelativeToolTip": "HermesAPI\\Profiles\\AvaliacaoProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T17:51:45.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-01T17:51:45.998Z"
             },
             {
               "$type": "Document",
@@ -83,8 +82,7 @@
               "RelativeToolTip": "HermesAPI\\Profiles\\FreteProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T17:51:14.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-01T17:51:14.202Z"
             },
             {
               "$type": "Document",
@@ -96,8 +94,7 @@
               "RelativeToolTip": "HermesAPI\\Profiles\\VeiculoProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T17:50:25.665Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-01T17:50:25.665Z"
             },
             {
               "$type": "Document",
@@ -107,7 +104,7 @@
               "RelativeDocumentMoniker": "HermesAPI\\Profiles\\UsuarioProfile.cs",
               "ToolTip": "C:\\Users\\ccfel\\OneDrive\\Meu Computador (Galaxy Book 4)\\Documents\\GitHub\\HermesAPP\\HermesAPI\\HermesAPI\\Profiles\\UsuarioProfile.cs",
               "RelativeToolTip": "HermesAPI\\Profiles\\UsuarioProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-01T17:49:31.305Z",
               "EditorCaption": ""
@@ -122,8 +119,7 @@
               "RelativeToolTip": "HermesAPI\\DTOs\\Frete\\FreteDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T19:22:58.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-27T19:22:58.531Z"
             },
             {
               "$type": "Document",
@@ -135,8 +131,7 @@
               "RelativeToolTip": "HermesAPI\\DTOs\\Frete\\AtualizarStatusFreteDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T19:22:57.677Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-27T19:22:57.677Z"
             },
             {
               "$type": "Document",
@@ -148,8 +143,7 @@
               "RelativeToolTip": "HermesAPI\\Entities\\Avaliacao.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T18:59:47.199Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-26T18:59:47.199Z"
             },
             {
               "$type": "Document",
@@ -161,8 +155,7 @@
               "RelativeToolTip": "HermesAPI\\DTOs\\Avaliacao\\AvaliacaoDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T18:59:29.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-26T18:59:29.526Z"
             },
             {
               "$type": "Document",
@@ -174,8 +167,7 @@
               "RelativeToolTip": "HermesAPI\\DTOs\\Avaliacao\\CriarAvaliacaoDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T18:58:02.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-26T18:58:02.719Z"
             }
           ]
         }
